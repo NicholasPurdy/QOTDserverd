@@ -14,3 +14,6 @@ Modify the quotesPerDay and quotesPerIP variables to change the limits.
 8. ```sudo systemctl daemon-reload```
 9. ```sudo systemctl start QOTDserverd.service```
 10. ```sudo systemctl status QOTDserverd.service```
+
+## Try it out
+```$ nc nicholaspurdy.net 17```
