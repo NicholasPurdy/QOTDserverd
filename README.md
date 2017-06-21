@@ -9,7 +9,7 @@ Modify the quotesPerDay and quotesPerIP variables to change the limits.
 3. Fill **quotes.txt** with whatever quotes you want. Quotes are seperated by a newline
 4. ```chmod +x``` on **QOTDserverd.py**
 5. Move **QOTDserverd.py** to */usr/bin*
-6. Move **QOTDserver.service** to */etc/systemd/system/*
+6. Move **QOTDserverd.service** to */etc/systemd/system/*
 7. ```sudo systemctl enable QOTDserverd.service```
 8. ```sudo systemctl daemon-reload```
 9. ```sudo systemctl start QOTDserverd.service```
