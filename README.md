@@ -16,4 +16,6 @@ Modify the quotesPerDay and quotesPerIP variables to change the limits.
 10. ```sudo systemctl status QOTDserverd.service```
 
 ## Try it out
-```$ nc nicholaspurdy.net 17```
+~~~```$ nc nicholaspurdy.net 17```~~~
+
+Down for the time being
